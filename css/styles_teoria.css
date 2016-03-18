@@ -1,0 +1,79 @@
+body{
+	font-family: Verdana;
+}
+p{
+	font-size: 2em;
+	/* Unidades de medida
+		px (absoluta)
+		em (relativa)
+	*/
+	color: #FFA5E2;
+	/*Colores:
+		nombre = olive
+		Hexadecimal = #FFA5E2
+		rgb(255,0,0)
+		rgba tiene el canal "a" de transparencia (va de 0 a 1)
+		rgba(255,0,0,0.5)
+	*/
+	font-weight: normal;
+	/*
+		normal: le saca la negrita
+		bold: pone negrita
+	*/	
+}
+.caja-01{
+	font-size: :20px;
+	font-weight: bold;
+	text-align: justify;
+}
+.caja-02{
+	font-size: :10px;	
+	text-transform: capitalize;
+	line-height: 50px;
+}
+h1{
+	font-weight: normal;
+	font-style: oblique;
+	/*
+		normal: normal
+		italic: italica - toma la familia tipografica que viene de Italica
+		oblique: igual que el italic - fuerza la tipografia a que se parezca a italica		
+	*/
+	text-align: center;
+	/*
+		left, right, center, justified
+
+		Para las versiones mobiles no usar justified
+	*/
+	text-transform: uppercase;
+	/*
+		none
+		uppercase
+		lowercase
+		capitalize
+	*/
+	text-decoration: line-through;
+	/*
+		none
+		underline
+		overline
+		line-through
+	*/
+	letter-spacing: 1px;
+	/*
+		Distanciar las letras por n cantindad de pixeles o em
+		Puede tener valores negativos (se juntan las letras)
+	*/
+	word-spacing: 2px;
+	/*
+		Distanciar las palabras por n cantindad de pixeles o em
+		Puede tener valores negativos (se juntan las palabras)
+	*/
+	line-height: 20px;
+	/*
+		Distanciar la lineas de un parrafo por n cantindad de pixeles o em
+		Puede tener valores negativos (se juntan las lineas)
+		Valor por defecto 6px
+	*/
+
+}
